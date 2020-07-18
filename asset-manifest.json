@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/FEW2.3-final-anastasia-gallardo/static/css/main.517a7feb.chunk.css",
-    "main.js": "/FEW2.3-final-anastasia-gallardo/static/js/main.308f3972.chunk.js",
-    "main.js.map": "/FEW2.3-final-anastasia-gallardo/static/js/main.308f3972.chunk.js.map",
+    "main.js": "/FEW2.3-final-anastasia-gallardo/static/js/main.5a6e92bf.chunk.js",
+    "main.js.map": "/FEW2.3-final-anastasia-gallardo/static/js/main.5a6e92bf.chunk.js.map",
     "runtime-main.js": "/FEW2.3-final-anastasia-gallardo/static/js/runtime-main.023cdd3f.js",
     "runtime-main.js.map": "/FEW2.3-final-anastasia-gallardo/static/js/runtime-main.023cdd3f.js.map",
     "static/js/2.f2acd148.chunk.js": "/FEW2.3-final-anastasia-gallardo/static/js/2.f2acd148.chunk.js",
     "static/js/2.f2acd148.chunk.js.map": "/FEW2.3-final-anastasia-gallardo/static/js/2.f2acd148.chunk.js.map",
     "index.html": "/FEW2.3-final-anastasia-gallardo/index.html",
-    "precache-manifest.ad51e81aadfe1c86d558f6b690f030d9.js": "/FEW2.3-final-anastasia-gallardo/precache-manifest.ad51e81aadfe1c86d558f6b690f030d9.js",
+    "precache-manifest.fe7af6b60dd84bd81ae96b56eb174253.js": "/FEW2.3-final-anastasia-gallardo/precache-manifest.fe7af6b60dd84bd81ae96b56eb174253.js",
     "service-worker.js": "/FEW2.3-final-anastasia-gallardo/service-worker.js",
     "static/css/main.517a7feb.chunk.css.map": "/FEW2.3-final-anastasia-gallardo/static/css/main.517a7feb.chunk.css.map",
     "static/js/2.f2acd148.chunk.js.LICENSE.txt": "/FEW2.3-final-anastasia-gallardo/static/js/2.f2acd148.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.023cdd3f.js",
     "static/js/2.f2acd148.chunk.js",
     "static/css/main.517a7feb.chunk.css",
-    "static/js/main.308f3972.chunk.js"
+    "static/js/main.5a6e92bf.chunk.js"
   ]
 }

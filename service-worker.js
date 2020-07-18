@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/FEW2.3-final-anastasia-gallardo/precache-manifest.ad51e81aadfe1c86d558f6b690f030d9.js"
+  "/FEW2.3-final-anastasia-gallardo/precache-manifest.fe7af6b60dd84bd81ae96b56eb174253.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "84c76cbb918429c8a57a16c715bd6d09",
+    "revision": "cf375dcce4e3677ac8141450e64e49ce",
     "url": "/FEW2.3-final-anastasia-gallardo/index.html"
   },
   {
-    "revision": "bcd10de625ab9c670eb9",
+    "revision": "c6b889ea9fbf50aaa20a",
     "url": "/FEW2.3-final-anastasia-gallardo/static/css/main.517a7feb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FEW2.3-final-anastasia-gallardo/static/js/2.f2acd148.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bcd10de625ab9c670eb9",
-    "url": "/FEW2.3-final-anastasia-gallardo/static/js/main.308f3972.chunk.js"
+    "revision": "c6b889ea9fbf50aaa20a",
+    "url": "/FEW2.3-final-anastasia-gallardo/static/js/main.5a6e92bf.chunk.js"
   },
   {
     "revision": "cb4da683d9f0d3eaa8f5",
