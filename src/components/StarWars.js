@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Title from './Title'
+import './StarWars.css'
 
 class StarWars extends Component {
     constructor(props) {
@@ -9,6 +10,7 @@ class StarWars extends Component {
             inputValue: '',
             swapiData: null,
             list: [],
+            hwData: null,
         }
     }
 
@@ -17,8 +19,10 @@ class StarWars extends Component {
         e.preventDefault()
         const num = inputValue
         const url = `https://swapi.dev/api/people/${num}`
+        const hwURL = `https://swapi.dev/api/planets/${num}/`
 
         const response = fetch(url)
+        const hwResponse = fetch(hwURL)
         console.log(response)
 
         response.then(res => {
@@ -30,6 +34,19 @@ class StarWars extends Component {
             this.setState({ swapiData: json })
         }).catch((err) => {
             this.setState({ swapiData: null })
+            console.log('Fetching Error!')
+            console.log(err.message)
+        })
+
+        hwResponse.then(res => {
+            console.log(res)
+            if (res.ok) {
+                return res.json()
+            }
+        }).then((json) => {
+            this.setState({ hwData: json })
+        }).catch((err) => {
+            this.setState({ hwData: null })
             console.log('Fetching Error!')
             console.log(err.message)
         })
@@ -51,7 +68,7 @@ class StarWars extends Component {
     }
 
     renderCharacter() {
-        const { swapiData } = this.state
+        const { swapiData, hwData } = this.state
         if (swapiData === null) {
             // If there is no data return undefined
             return undefined
@@ -60,12 +77,13 @@ class StarWars extends Component {
         const { name, height, mass, hair_color, eye_color } = swapiData
 
         return (
-            <div>
+            <div className="character-details">
                 <Title name={name} />
                 <p>Height: {height}</p>
                 <p>Mass: {mass}</p>
                 <p>Hair Color: {hair_color}</p>
                 <p>Eye Color: {eye_color}</p>
+                <p>Homeworld: {hwData.name}</p>
                 <button
                     onClick={(e) =>
                         this.addCharacterToList(name)
@@ -76,12 +94,12 @@ class StarWars extends Component {
     }
 
     render() {
-        const { inputValue } = this.state
+        const { inputValue} = this.state
         const character = this.renderCharacter()
         const characterList = this.renderCharacterList()
+
         return (
             <div>
-                <Title name="Star Wars" />
                 <form
                     className="input-form"
                     onSubmit={
