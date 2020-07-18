@@ -109,7 +109,7 @@ class StarWars extends Component {
                         value={inputValue}
                         onChange={e =>
                             this.setState({ inputValue: e.target.value })}
-                            placeholder="enter number: 1-9"
+                            placeholder="enter integer number"
                         />
                     <button>Submit</button>
                 </form>
